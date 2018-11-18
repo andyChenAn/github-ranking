@@ -15,4 +15,4 @@
 ### 如何解决？
 就像在这个项目中，当点击侧边栏的列表时，怎么通知父组件的状态改变？（呈现出来的效果就是：侧边栏组价会消失，加载中组件会显示，并且会加载数据），其实这里我们也是props来解决，只是props传递的是一个函数，当点击的时候，调用这个函数，同时父组件会监听这个函数，当函数被调用的时候，父组件的监听器就会被调用，然后再通过函数参数的方式将数据传递到父组件。
 ### 项目展示
-![image](http://note.youdao.com/favicon.ico)
+![image](https://github.com/andyChenAn/github-ranking/blob/master/image/github-ranking.gif)
