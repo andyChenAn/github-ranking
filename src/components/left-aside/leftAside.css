@@ -1,0 +1,45 @@
+.left-aside-content {
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+}
+.left-aside-box {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.left-aside-title {
+    font-size: 16px;
+    padding-left: 15px;
+    height: 56px;
+    line-height: 56px;
+    background-color: #2196f3;
+    color: #fff;
+}
+.left-aside-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+}
+.left-aside-list li {
+    padding: 15px;
+    position: relative;
+}
+.left-aside-list li:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    transform: scale(1 , 0.5);
+    background-color: #f2f2f2;
+}

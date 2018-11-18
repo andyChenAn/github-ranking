@@ -1,0 +1,34 @@
+.rank-list {
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.rank-list:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #f2f2f2;
+    transform: scale(1 , 0.5);
+}
+.list-name {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 8px;;
+}
+.list-description {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 8px;
+}
+.list-language {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 8px;
+}
+.list-date {
+    font-size: 14px;
+    color: #999;
+}
