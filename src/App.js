@@ -22,10 +22,10 @@ export default class App extends Component {
             isLeft : true
         })
     }
-    closeLeftAside () {
+    closeLeftAside (isClickAside) {
         this.setState({
             isLeft : false,
-            loaded : false
+            loaded : isClickAside ? true : false
         });
     }
     handleRankData (data) {

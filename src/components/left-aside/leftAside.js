@@ -29,7 +29,7 @@ export default class LeftAside extends React.Component {
                         {list}
                     </ul>
                 </div>
-                <div className="left-aside-mask" onClick={this.props.onLeftAsideClose}></div>
+                <div className="left-aside-mask" onClick={() => this.props.onLeftAsideClose('aside')}></div>
             </div>
         )
     }
